@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Guia de Segurança Digital</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- MENU DE ACESSIBILIDADE -->
+    <nav class="barra-acessibilidade" aria-label="Controles de Acessibilidade">
+
+        <button
+            id="btnAumentaTexto"
+            class="botao-controle"
+            title="Aumentar texto">
+            A+ Aumentar
+        </button>
+
+        <button
+            id="btnDiminuiTexto"
+            class="botao-controle"
+            title="Diminuir texto">
+            A- Diminuir
+        </button>
+
+        <button
+            id="btnVoz"
+            class="botao-controle botao-leitura"
+            title="Ouvir página">
+            🔊 Ouvir Página
+        </button>
+
+        <button
+            id="btnParar"
+            class="botao-controle"
+            title="Parar leitura">
+            ⏹️ Parar
+        </button>
+
+    </nav>
+
+
+    <!-- CONTEÚDO PRINCIPAL -->
+    <main>
+
+        <!-- INÍCIO -->
+        <section class="banner">
+
+            <h1>Guia de Segurança Digital</h1>
+
+            <p>
+                Proteja-se e navegue com tranquilidade.
+            </p>
+
+            <button
+                id="btnAbrirAjuda"
+                class="botao-ajuda">
+                PRECISO DE AJUDA AGORA
+            </button>
+
+        </section>
+
+
+        <div class="conteudo">
+
+            <!-- SEÇÃO 1 -->
+            <section class="cartao">
+
+                <h2>Como se proteger na internet</h2>
+
+                <p>
+                    A internet pode ser muito útil, mas é importante
+                    tomar alguns cuidados para evitar golpes.
+                </p>
+
+                <ul>
+                    <li>
+                        Nunca compartilhe sua senha com desconhecidos.
+                    </li>
+
+                    <li>
+                        Desconfie de mensagens que pedem dinheiro com urgência.
+                    </li>
+
+                    <li>
+                        Não clique em links suspeitos.
+                    </li>
+
+                    <li>
+                        Nunca informe códigos recebidos por SMS ou WhatsApp.
+                    </li>
+
+                    <li>
+                        Em caso de dúvida, converse com alguém de confiança.
+                    </li>
+                </ul>
+
+            </section>
+
+
+            <!-- SEÇÃO 2 -->
+            <section class="cartao">
+
+                <h2>Como reconhecer um possível golpe</h2>
+
+                <p>
+                    Alguns golpes usam mensagens assustadoras ou prometem
+                    benefícios para fazer a pessoa agir rapidamente.
+                </p>
+
+                <ol>
+                    <li>
+                        Mensagens dizendo que sua conta será bloqueada.
+                    </li>
+
+                    <li>
+                        Pessoas pedindo dinheiro com muita urgência.
+                    </li>
+
+                    <li>
+                        Links para supostas promoções ou prêmios.
+                    </li>
+
+                    <li>
+                        Pessoas fingindo ser familiares ou amigos.
+                    </li>
+
+                    <li>
+                        Pedidos de senha, código ou dados bancários.
+                    </li>
+                </ol>
+
+            </section>
+
+
+            <!-- SEÇÃO 3 -->
+            <section class="cartao">
+
+                <h2>Se receber uma mensagem suspeita</h2>
+
+                <p>
+                    Não tenha pressa para responder. Pare, respire e
+                    confirme a informação por outro meio.
+                </p>
+
+                <ul>
+                    <li>Não envie dinheiro imediatamente.</li>
+                    <li>Não forneça seus dados pessoais.</li>
+                    <li>Não compartilhe códigos de confirmação.</li>
+                    <li>Confirme a identidade da pessoa.</li>
+                    <li>Peça ajuda a alguém de confiança.</li>
+                </ul>
+
+            </section>
+
+        </div>
+
+
+        <!-- RODAPÉ -->
+        <footer>
+
+            <p>
+                <strong>Segurança Digital para a Melhor Idade</strong>
+            </p>
+
+            <p>
+                Este guia é informativo.
+                Nunca compartilhe sua senha com estranhos.
+            </p>
+
+        </footer>
+
+    </main>
+
+
+    <!-- MODAL DE AJUDA -->
+    <div
+        id="modalAjuda"
+        class="modal-fundo"
+        role="dialog"
+        aria-modal="true"
+        aria-labelledby="tituloAjuda">
+
+        <div class="modal-conteudo">
+
+            <section id="contato-ajuda">
+
+                <h2 id="tituloAjuda">
+                    O que fazer agora?
+                </h2>
+
+                <p>
+                    Se você acha que caiu em um golpe ou está com
+                    medo de uma mensagem:
+                </p>
+
+                <ol>
+
+                    <li>
+                        <strong>
+                            Pare tudo o que está fazendo.
+                        </strong>
+                    </li>
+
+                    <li>
+                        <strong>
+                            Ligue para um filho, neto ou amigo próximo.
+                        </strong>
+                    </li>
+
+                    <li>
+                        <strong>
+                            Ligue para o seu banco
+                        </strong>
+                        usando o número que está atrás do seu cartão.
+                    </li>
+
+                    <li>
+                        <strong>
+                            Registre um Boletim de Ocorrência
+                        </strong>
+                        na delegacia mais próxima ou pela internet.
+                    </li>
+
+                </ol>
+
+                <button
+                    id="btnFecharAjuda"
+                    class="botao-fechar">
+                    Fechar
+                </button>
+
+            </section>
+
+        </div>
+
+    </div>
+
+
+    <!-- JAVASCRIPT -->
+    <script src="script.js"></script>
+
+</body>
+
+</html>
